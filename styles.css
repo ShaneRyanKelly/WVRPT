@@ -1,0 +1,68 @@
+#bootstrap-overrides .navbar .navbar-brand {
+  color: #97FFE2;
+}
+
+#bootstrap-overrides li > a {
+  color: #97FFE2;
+}
+
+#bootstrap-overrides li > a:hover {
+  color: white;
+  background-color: #468976;
+}
+
+#bootstrap-overrides .navbar {
+  background-color: #256F5B;
+  border-color: #003829;
+}
+
+#bootstrap-overrides h1 {
+  color: #468976;
+}
+
+#bootstrap-overrides #body {
+  padding-top: 4.375em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+#bootstrap-overrides #body .container {
+  padding-left: 0em;
+  padding-right: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#bootstrap-overrides #body .row {
+  height: 100%;
+  display: table-row;
+}
+
+#bootstrap-overrides #body .row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+#bootstrap-overrides #left{
+background: #407D6C;
+color:white;
+height: 100%;
+}
+
+#bootstrap-overrides #center{
+ background: #CDF9ED;
+ height: 100%;
+}
+
+#bootstrap-overrides #right{
+  background: #407D6C;
+  color:white;
+  height: 100%;
+}
+
+#bootstrap-overrides #body #center h1 {
+  text-align: center;
+}
