@@ -1,3 +1,7 @@
+html, body {
+  height: calc(100% - 46px);
+}
+
 #bootstrap-overrides .navbar .navbar-brand {
   color: #97FFE2;
 }
@@ -21,46 +25,60 @@
 }
 
 #bootstrap-overrides #body {
-  padding-top: 4.375em;
+  margin-top: 4.375em;
   padding-left: 0em;
   padding-right: 0em;
+  height: 100%;
+  min-height:100%;
 }
 
-#bootstrap-overrides #body .container {
+#bootstrap-overrides #body .container-fluid {
   padding-left: 0em;
   padding-right: 0em;
   margin-left: 0em;
   margin-right: 0em;
   display: table;
   width: 100%;
-  box-sizing: border-box;
+  height:100%;
+  min-height:100%;
 }
 
 #bootstrap-overrides #body .row {
+  min-height: 100%;
   height: 100%;
-  display: table-row;
 }
 
-#bootstrap-overrides #body .row .no-float {
+#bootstrap-overrides #body .row .no-float{
   display: table-cell;
   float: none;
+  height:100%;
+  min-height:100%;
 }
 
 #bootstrap-overrides #left{
-background: #407D6C;
-color:white;
-height: 100%;
+  display: table-cell;
+  background-color: #407D6C;
+  color:white;
+  min-height: 100%;
+  height:100%;
 }
 
 #bootstrap-overrides #center{
- background: #CDF9ED;
- height: 100%;
+ background-color: #CDF9ED;
+ min-height: 100%;
+ height:100%;
 }
 
-#bootstrap-overrides #right{
-  background: #407D6C;
-  color:white;
-  height: 100%;
+#bootstrap-overrides #footer {
+  padding-left: 0em;
+  padding-right: 0em;
+  margin-top: .75em;
+  margin-left: 0em;
+  margin-right: 0em;
+  display: table;
+  width: 100%;
+  color: white;
+  background: #468976;
 }
 
 #bootstrap-overrides #body #center h1 {

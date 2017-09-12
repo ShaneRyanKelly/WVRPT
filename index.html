@@ -9,7 +9,6 @@
 
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
-
   </head>
 
   <body id="bootstrap-overrides" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -22,18 +21,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#index">WVRPT</a>
+          <a class="navbar-brand" href="#default">WVRPT</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#about">Data</a>
+              <a href="#data">Data</a>
             </li>
             <li>
-              <a href="#gallery">Maps</a>
+              <a href="#visuals">Maps</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#login">Log In</a>
             </li>
           </ul>
         </div>
@@ -41,24 +43,29 @@
     </nav>
 
     <div id="body" class="container-fluid bg2 text-center">
-      <div class="row">
-        <div id="left" class="col-md-3 no-float">
-            <p>
+      <div id="bodyrow" class="row">
+        <div id="left" class="sidebar col-md-3">
+            <span>
               this element will be used to load a selection of buoys
-            </p>
+            </span>
         </div>
 
-        <div id="center" class="col-md-9 no-float">
-          <h1>Welcome to WVRPT</h1>
-          <p>
-            Data visualizations and page information will be loaded into this box
-          </p>
+        <div id="center" class="main-content col-md-9 ">
+
         </div>
       </div>
     </div>
 
+    <footer class="footer text-center">
+      <div id="footer" class="container">
+        <span>Developed Fall 2017 for New Paltz Computer Science by Shane Kelly</span>
+      </div>
+    </footer>
+
     <script src="../jquery-3.2.1.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="fetch.js"></script>
+
   </body>
 
 </html>
